@@ -1,0 +1,33 @@
+
+.barContainer {
+ margin: 0px 20%;
+ 
+}
+.contentHourly {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  min-width: 100%;
+  height: 50px;
+//   padding: 10px;
+  margin-top: 10px;
+  gap: 10px;
+}
+
+.hour {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    p {
+        margin: 0;
+    }
+}
+
+.contentColors {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    border-radius: 10px;
+    overflow: hidden;
+}
